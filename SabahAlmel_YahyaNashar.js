@@ -33,5 +33,4 @@ console.log("max is:"+max)
 //     console.log("\n");
 // }
 
-// ex4
 

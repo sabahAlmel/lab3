@@ -17,6 +17,20 @@
 // we are basically switching the value of keys by 0 or 30000 , if it's any other number we have the default value set...
 
 
+// Exercise 4:
+
+// const arr = prompt("enter an array separated by comma:");
+// const arr1 = arr.split(",");
+// for (let i =0 ; i < arr1.length ; i++){
+//     for (let j =0 ; j<arr1.length ; j++){
+//         if (parseInt(arr1[i])<parseInt(arr1[i+1])){
+//             console.log("the biggest number is "+arr1[i+1])
+//         }
+//     }
+// }
+
+// 2 for loops one to iterate through the array and one to compare each number from the first loop with all other numbers in the array , the greatest number is printed.
+
 // Exercise 5:
 
 // function GiveMeNumber(num){
@@ -71,16 +85,24 @@
 
 // // // Exercise 3:
 
-var nb=prompt("enter a number");
-Nested(nb);
-function Nested(nb){
+// var nb=prompt("enter a number");
+// Nested(nb);
+// function Nested(nb){
     
-for(let i=0;i<nb;i++){
-    for(let j=0;j<=i;j++){
-        console.log("*")
-    }
-    console.log("\n");
-}
-}
+// for(let i=0;i<nb;i++){
+//     for(let j=0;j<=i;j++){
+//         console.log("*")
+//     }
+//     console.log("\n");
+// }
+// }
+
+// // // Exercise 4 :
+
+
+
+
+
+// // // Exercise 5 && Exercise 6 are already fcts.
 
 

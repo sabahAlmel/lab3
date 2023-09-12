@@ -99,6 +99,19 @@
 
 // // // Exercise 4 :
 
+const arr = prompt("enter an array separated by comma:");
+NestedLoop(arr);
+function NestedLoop(arr){
+
+const arr1 = arr.split(",");
+for (let i =0 ; i < arr1.length ; i++){
+    for (let j =0 ; j<arr1.length ; j++){
+        if (parseInt(arr1[i])<parseInt(arr1[i+1])){
+            console.log("the biggest number is "+arr1[i+1])
+        }
+    }
+}
+}
 
 
 
